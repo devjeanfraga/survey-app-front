@@ -1,10 +1,16 @@
 import React from 'react'
-import { Login } from './components/Home'
+// import { Login } from './components/LogIn/LogIn'
+// import { SignIn } from './components/LogIn/SignIn'
+import { Header } from './components/header/Header'
+import { Hero } from './components/Hero/Hero'
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Header />
+      <Hero />
+      {/* <Login />
+      <SignIn /> */}
     </div>
   )
 }
